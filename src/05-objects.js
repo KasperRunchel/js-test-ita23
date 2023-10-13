@@ -7,11 +7,17 @@
  * const person = createPersonObject();
  * // person might be { name: 'John Doe', age: 30, city: 'New York' }
  */
-function createPersonObject() {
-    
+function createPersonObject(name,age,city) {
+    const person1 = {
+        name: name,
+        Age: age,
+        city: city
+    }
+    return person1
 }
 
-
+const person = createPersonObject('John Doe', 30, 'New york')
+console.log(person)
 /**
  * This function returns the name of the given person object.
  *

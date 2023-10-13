@@ -13,10 +13,6 @@
  * const numbers = returnNumbers(5, 5);
  * console.log(numbers); // [5]
  */
-function returnNumbers(start, finish) {
-
-}
-
 
 /**
  * This function sums up all the values in an array.
@@ -30,7 +26,6 @@ function returnNumbers(start, finish) {
  */
 
 function sumArray(array) {
-
 }
 
 /**

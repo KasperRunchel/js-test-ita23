@@ -8,8 +8,12 @@
  * Usage:
  * const message = generateMessage("Jack", 25); // message will be "Hey Jack, at 25, you are in the prime of your life!"
  */
+function generateMessage(name, age) {
+    console.log(`Hey ${name}, at ${age}, you are in the prime of your life!`);
+}
 
-
+const message = generateMessage("Jack",25);
+console.log(message)
 /**
  * This function capitalizes the first letter of every word in a sentence.
  *
@@ -19,6 +23,7 @@
  * Usage:
  * const title = titleCase("hello world"); // title will be "Hello World"
  */
+
 
 
 /**
